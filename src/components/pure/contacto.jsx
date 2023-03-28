@@ -19,7 +19,7 @@ const ContactComponent=({contact})=>{
                     Email: {contact.email}
                 </h4>
                 <h5>
-                    Disponibilidad: {contact.conectado ? 'En linea':'No Disponible'}
+                    Disponibilidad: {contact.conectado ? 'En linea':'No Disponible'} Estado
                 </h5>
             </div>
         
